@@ -1,4 +1,4 @@
-import { ServerRespond } from './DataStreamer';
+import {ServerRespond} from './DataStreamer';
 
 export interface Row {
   price_abc: number,
@@ -8,7 +8,6 @@ export interface Row {
   upper_bound: number,
   lower_bound: number,
   trigger_alert: number | undefined,
-
 }
 
 
